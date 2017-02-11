@@ -1,0 +1,9 @@
+[package]
+name = "rust-criml-features"
+version = "0.1.0"
+authors = ["ddohler <ddohler@users.noreply.github.com>"]
+
+[dependencies]
+chrono = { version = "0.3", features = ["rustc-serialize"] }
+csv = "0.15.0"
+rustc-serialize = "0.3.0"
